@@ -117,7 +117,7 @@ namespace WooCommerceNET.WooCommerce
         [DataMember(EmitDefaultValue = false, Name = "price")]
         private object priceValue { get; set; }
 
-        public decimal? price { get; set; }
+        public string price { get; set; }
 
         /// <summary>
         /// Product regular price.
